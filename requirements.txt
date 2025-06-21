@@ -8,3 +8,4 @@ tqdm
 pypdf
 together 
 gunicorn
+gradio
