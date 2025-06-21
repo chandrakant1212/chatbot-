@@ -3,7 +3,7 @@ import gradio as gr
 from langchain_community.chat_models import ChatOpenAI
 from langchain_community.document_loaders import DirectoryLoader, PyPDFLoader
 from langchain_community.vectorstores import Chroma
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
